@@ -61,7 +61,7 @@ no_print:
     cmp     esi, 0xffffffff
     jz      stop        ; when we have reached zero, stop
 
-    inc     esi         ; when 0 not is reached, decrease with 1 and jump to again
+    inc     esi         ; when 0 not is reached, increase with 1 and jump to again
     jmp     again
 
 stop:
